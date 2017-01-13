@@ -47,8 +47,6 @@ $(document).ready(function(){
     var auto = setInterval(function(){
 
 
-        //next버튼 클릭시 구현 기능
-
         if (i == len - 1) {
             i = 0;
         }
@@ -58,6 +56,8 @@ $(document).ready(function(){
         Sliding();
 
     },1500); //자동실행 함수(실행 할 내용,몇 초 마다);
+
+
 
     //슬라이더 마우스오버시 정지
 
@@ -86,7 +86,7 @@ $(document).ready(function(){
 
     });    
     
-    
+    /////////////////////////////////////////////////////////////////
     
     // tab_menu , tab_box처리
     
