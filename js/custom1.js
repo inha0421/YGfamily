@@ -107,14 +107,20 @@ $(document).ready(function(){
         
         $(".tab_box> div").stop().hide();
         $(".tab_box> div").eq(list).stop().show();
-        
-        
-        
-        
-        
+
     });
     
     
+//////////////////////////////////////////////////////////////
     
+    //footer 에서 familt 구현
+
+    $(".family").mouseenter(function(){
+        $(".family ul").stop().show();
+    });
+
+    $(".family").mouseleave(function(){
+        $(".family ul").stop().hide();
+    });
     
 });

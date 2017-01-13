@@ -98,6 +98,33 @@ header .menu li:nth-child(8):hover a{background-position: -788px -22px;}
 
 
 
+.search_div {
+    width: 135px;
+    height: 17px;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+}
+
+.search{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 115px;
+    background-color: #f9f9f9;
+}
+
+.search_btn{
+    background-image: url(../img/top/ico_sch.gif);
+    width: 19px;
+    height: 17px;
+    text-indent: -9999px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
 /***************************** slider ***************************/
 
 
@@ -439,38 +466,6 @@ center {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**************************************************************/
 
 .middle{
@@ -499,19 +494,20 @@ footer {
     height: 60px;
     padding-top: 5px;
     border-top: 2px solid #dadada;    
+    position: relative;
 }
-footer div{
+footer .copyright{
     width: 335px;
     height: 21px;
     float: left;
     font-size: 0px;
     margin-top: 10px;
 }
-footer div img{margin-right: 5px;}
-footer ul{
+footer .copyright >img{margin-right: 5px;}
+footer .F_ul{
     float: right;
 }
-footer ul li{
+footer .F_ul >li{
     float: left;
     background-image: url(../img/bottom/bu_dot.gif);
     background-repeat: no-repeat;
@@ -519,7 +515,58 @@ footer ul li{
     padding: 0px 10px;
     position: relative;
 }
-footer ul li .recruit{
+footer > .F_ul  >li .recruit{
     position: absolute;
     top : -15px;
 }
+
+
+footer .family{
+    position: absolute;
+    right: 0px;
+    bottom : 10px;
+    width:145px;
+    height: 16px;
+    background-color: #666;
+}
+footer .family a{
+    color: #fff;
+    font-size: 10px;
+    line-height: 16px;
+    display: block;
+    width: 100%;
+    height: 16px;
+    padding-left: 10px;
+}
+footer .family a img{
+    position: absolute;
+    right: 10px;
+    top : 50%;
+    margin-top: -1px;
+}
+footer .family ul{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+footer .family ul li{
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+}
+
+footer .family ul li:hover{
+    background-color: #333;
+}
+
+footer .family ul li a{
+    display: block;
+    width: 100%;
+    color : #fff;
+    height: 16px;
+    font-size: 10px;
+    line-height: 16px;
+    padding-left: 10px;
+}
+
