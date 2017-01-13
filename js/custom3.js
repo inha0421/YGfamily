@@ -34,7 +34,7 @@ $(document).ready(function(){
 
     function Sliding(){
 
-        $(".btn_R li").removeClass(".tn_R_on");
+        $(".btn_R li").removeClass("btn_R_on");
         $(".btn_R li").eq(i).addClass("btn_R_on");
         $(".panel_R").animate({"margin-left": -wid * i},500);
 

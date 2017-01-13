@@ -263,14 +263,14 @@ center {
 .tab_box > .b1 {
     display: block;
 }
-.tab_box > div >h5{
+.tab_box > div >a>h5{
     text-align: left;
     padding-left: 20px;
     color: #666;
     font-weight: normal;
     font-size: 12px;
 }
-.tab_box > div >h5 >span{
+.tab_box > div >a>h5 >span{
     color: #999;
     font-size: 10px;
     float: right;
@@ -278,11 +278,6 @@ center {
     padding-top: 3px;
 }
 
-.tab_box .b2 >h5 >span{
-
-    padding-right: 0px;
-    padding-top: 3px;
-}
 .tab_box .b2 >div{
     margin-left: 20px;
 }
@@ -416,26 +411,21 @@ center {
 .tab_box2 > .b1 {
     display: block;
 }
-.tab_box2 > div >h5{
+.tab_box2 > div >a>h5{
     text-align: left;
     padding-left: 20px;
     color: #666;
     font-weight: normal;
     font-size: 12px;
 }
-.tab_box2 > div >h5 >span{
+.tab_box2 > div >a>h5 >span{
     color: #999;
     font-size: 10px;
     float: right;
-    padding-right: 25px;
-    padding-top: 3px;
-}
-
-.tab_box2 .b2 >h5 >span{
-
     padding-right: 0px;
     padding-top: 3px;
 }
+
 .tab_box2 .b2 >div{
     margin-left: 20px;
 }
